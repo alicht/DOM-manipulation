@@ -224,9 +224,8 @@ demoQueryAll.forEach(query => {
 
 ![screen shot 2017-11-28 at 9 10 07 am](https://user-images.githubusercontent.com/6153182/33323930-fd31ace6-d41b-11e7-8604-794dbad692b0.png)
 
-With `querySelector()`, comma-separated values function as an OR operator. For example, `querySelector('div, article')` will match div or article, whichever appears first in the document. With `querySelectorAll()`, comma-separated values function as an AND operator, and `querySelectorAll('div, article')` will match all div and article values in the document.
 
-Using the query selector methods is extremely powerful, as you can access any element or group of elements in the DOM the same way you would in a CSS file. For a complete list of selectors, review CSS Selectors on the Mozilla Developer Network.
+Using the query selector methods are extremely powerful, as you can access any element or group of elements in the DOM the same way you would in a CSS file. For a complete list of selectors, see CSS Selectors on the Mozilla Developer Network.
 
 
 #  Recap
