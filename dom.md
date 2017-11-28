@@ -167,7 +167,59 @@ When an HTML element is an item in the DOM, it is referred to as an element node
 
 The DOM consists of a tree structure of nested nodes, which is often referred to as the DOM tree. You may be familiar with an ancestral family tree, which consists of parents, children, and siblings. The nodes in the DOM are also referred to as parents, children, and siblings, depending on their relation to other nodes.
 
+``` html
+<!DOCTYPE html>
+<html>
 
+  <head>
+    <title>Learning About Nodes</title>
+  </head>
+
+  <body>
+    <h1>An element node</h1>
+    <!-- a comment node -->
+    A text node.
+  </body>
+
+</html>
+```
+
+The html element node is the parent node. head and body are siblings, children of html. body contains three child nodes, which are all siblings — the type of node does not change the level at which it is nested.
+
+# Modifying the DOM with Events
+Up until now, we've only seen how to modify the DOM in the console, which we have seen is temporary; every time the page is refreshed, the changes are lost. In the Introduction to the DOM tutorial, we used the console to update the background color of the body. We can combine what we've learned throughout this tutorial to create an interactive button that does this when clicked.
+
+Let's go back to our index.html file and add a button element with an id. We'll also add a link to a new file in a new js directory js/scripts.js.
+
+## Events
+An event in JavaScript is an action the user has taken. When the user hovers their mouse over an element, or clicks on an element, or presses a specific key on the keyboard, these are all types of events. In this particular case, we want our button to listen and be ready to perform an action when the user clicks on it. We can do this by adding an event listener to our button.
+
+Create scripts.js and save it in the new js directory. Within the file, we'll first find the button element and assign it to a variable.
+
+![screen shot 2017-11-28 at 4 06 21 am](https://user-images.githubusercontent.com/6153182/33311016-8f0cb56e-d3f1-11e7-9e1e-cc70cbe38ef3.png)
+
+
+Using the addEventListener() method, we will tell the button to listen for a click, and perform a function once clicked.
+
+``` javascript
+button.addEventListener('click', () => {
+  // action will go here
+});
+```
+
+Finally, inside of the function, we will write the same code from the previous tutorial to change the background color to fuchsia.
+
+``` javascript
+let button = document.getElementById('changeBackground');
+button.addEventListener('click', () => {
+  document.body.style.backgroundColor = 'fuchsia';
+});
+```
+
+# Recap
+In this tutorial, we reviewed terminology that will allow us to understand and modify the DOM. We learned how the DOM is structured as a tree of nodes that will usually be HTML elements, text, or comments, and we created a script that would allow a user to modify a website without having to manually type code into the developer console.
+
+==========
 
 
 
