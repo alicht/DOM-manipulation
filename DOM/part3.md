@@ -65,22 +65,27 @@ In this HTML file, we have many elements that we will access with different `doc
 
 The easiest way to access a single element in the DOM is by its unique ID. We can grab an element by ID with the `getElementById()` method of the document object.
 
-`document.getElementById();`
+``` javascript
+document.getElementById();
+```
 
 In order to be accessed by ID, the HTML element must have an id attribute. We have a div element with an ID of demo.
 
-`<div id="demo">Access me by ID</div>`
+``` html
+<div id="demo">Access me by ID</div>
+```
 
 In the Console, let's get the element and assign it to the demoId variable.
 
 ``` javascript
 const demoId = document.getElementById('demo');
 ```
-Logging demoId to the console will return our entire HTML element.
+Logging `demoId` to the console will return our entire HTML element.
 
-```
+```javascript
 console.log(demoId);
-
+```
+```html
 <div id="demo">Access me by ID</div>
 ```
 
@@ -98,7 +103,7 @@ Accessing an element by ID is an effective way to get an element quickly in the 
 
 # 2) Accessing Elements by Class
 
-The class attribute is used to access one or more specific elements in the DOM. We can get all the elements with a given class name with the getElementsByClassName() method.
+The class attribute is used to access one or more specific elements in the DOM. We can get all the elements with a given class name with the `getElementsByClassName()` method.
 
 ```
 document.getElementsByClassName();
@@ -111,12 +116,12 @@ Now we want to access more than one element, and in our example we have two elem
 ```
 Let's access our elements in the Console and put them in a variable called demoClass.
 
-```
+``` javascript
 const demoClass = document.getElementsByClassName('demo');
 ```
 Let's see if we can modify the elements the same way we did with our ID example. However, if we try to run the following code and change the border property of the class demo elements to orange, we will get an error.
 
-```
+```javascript
 demoClass.style.border = '1px solid orange';
 ```
 
@@ -127,7 +132,7 @@ The reason this doesn't work is because instead of just getting one element, we 
 ### So how would we be able to access it?
 JavaScript arrays must be accessed with an index number. We can therefore change the first element of this array by using an index of 0.
 
-```
+``` javascript
 demoClass[0].style.border = '1px solid orange';
 ```
 Generally when accessing elements by class, we want to apply a change to all the elements in the document with that particular class, not just one. We can do this by creating a for loop, and looping through every item in the array.
@@ -143,7 +148,9 @@ for (i = 0; i < demoClass.length; i++) {
 # 3) Accessing Elements by Tag
 A less specific way to access multiple elements on the page would be by its HTML tag name. We access an element by tag with the getElementsByTagName() method.
 
-```document.getElementsByTagName();```
+```javascript
+document.getElementsByTagName();
+```
 
 For our tag example, we're using article elements.
 
@@ -171,9 +178,9 @@ If you have any experience with the jQuery API, you may be familiar with jQuery'
 ``` javascript
 $('#demo'); // returns the demo ID element in jQuery
 ```
-We can do the same in plain JavaScript with the querySelector() and querySelectorAll() methods.
+We can do the same in plain JavaScript with the `querySelector()` and `querySelectorAll()` methods.
 
-```
+``` javascript
 document.querySelector();
 document.querySelectorAll();
 ```
@@ -186,7 +193,7 @@ To access a single element, we will use the querySelector() method. In our HTML 
 
 The selector for an id attribute is the hash symbol (#). We can assign the element with the demo-query id to the demoQuery variable.
 
-```
+``` javascript
 const demoQuery = document.querySelector('#demo-query');
 ```
 In the case of a selector with multiple elements, such as a class or a tag, querySelector() will return the first element that matches the query. We can use the querySelectorAll() method to collect all the elements that match a specific query.
@@ -199,7 +206,9 @@ In our example file, we have two elements with the demo-query-all class applied 
 ```
 The selector for a class attribute is a period or full stop (.), so we can access the class with .demo-query-all.
 
-```const demoQueryAll = document.querySelectorAll('.demo-query-all');```
+``` javascript
+const demoQueryAll = document.querySelectorAll('.demo-query-all');
+```
 
 Using the forEach() method, we can apply the color green to the border property of all matching elements.
 
@@ -211,7 +220,7 @@ demoQueryAll.forEach(query => {
 
 ![screen shot 2017-11-28 at 9 10 07 am](https://user-images.githubusercontent.com/6153182/33323930-fd31ace6-d41b-11e7-8604-794dbad692b0.png)
 
-With querySelector(), comma-separated values function as an OR operator. For example, querySelector('div, article') will match div or article, whichever appears first in the document. With querySelectorAll(), comma-separated values function as an AND operator, and querySelectorAll('div, article') will match all div and article values in the document.
+With `querySelector()`, comma-separated values function as an OR operator. For example, `querySelector('div, article')` will match div or article, whichever appears first in the document. With `querySelectorAll()`, comma-separated values function as an AND operator, and `querySelectorAll('div, article')` will match all div and article values in the document.
 
 Using the query selector methods is extremely powerful, as you can access any element or group of elements in the DOM the same way you would in a CSS file. For a complete list of selectors, review CSS Selectors on the Mozilla Developer Network.
 
