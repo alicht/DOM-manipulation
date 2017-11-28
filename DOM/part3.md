@@ -208,7 +208,7 @@ In our example file, we have two elements with the `demo-query-all` class applie
 <div class="demo-query-all">Access me by query all (1)</div>
 <div class="demo-query-all">Access me by query all (2)</div>
 ```
-The selector for a class attribute is a period or full stop (.), so we can access the class with .demo-query-all.
+The selector for a class attribute is a period or full stop (.), so we can access the class with `.demo-query-all.`
 
 ``` javascript
 const demoQueryAll = document.querySelectorAll('.demo-query-all');
