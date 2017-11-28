@@ -20,7 +20,8 @@ This model allows JavaScript to access the text content and elements of the webs
 
 ## Let's create a very basic `index.html` file and save it
 
-```<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -32,4 +33,5 @@ This model allows JavaScript to access the text content and elements of the webs
   </body>
 
 </html>
+```
 
