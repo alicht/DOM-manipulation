@@ -6,10 +6,36 @@ Objectives:
 -  what nodes are, and how to identify the most common node types
 -  we'll create a JavaScript program to interactively modify the DOM
 
+# The Dom Tree
+
+### The document itself is a document node, which is the root of all other nodes.
+
+
+The DOM consists of a tree structure of nested nodes, which is often referred to as the DOM tree. 
+You may be familiar with an ancestral family tree, which consists of parents, children, and siblings. The nodes in the DOM are also referred to as parents, children, and siblings, depending on their relation to other nodes.
+
+### To do:
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <title>My home page</title>
+  </head>
+  <body>
+    <h1>My home page</h1>
+    <p>Hello, I am (your name) and this is my home page.</p>
+    <p>Also, I'm really cool!
+      <a href="http://coolperson.com"> see here</a></p>
+  </body>
+</html>
+```
+
+# Moving on
 
 Let's use that basic HTML that we created a moment ago
 
-##### The simplest way to access an element with JavaScript is by the id attribute. Let's add a nav id to our HTML.
+##### The simplest way to access an element with JavaScript is by the id attribute (we'll talk more about this shortly). Let's add a nav id to our HTML.
 
 ```html
 <!DOCTYPE html>
@@ -26,7 +52,6 @@ Let's use that basic HTML that we created a moment ago
 
 </html>
 ```
-
 
 We're going to use the `getElementById()` method to access the entire element. In the console, type the following:
 `document.getElementById('nav');`
@@ -59,30 +84,7 @@ This is also reflected on the front-end of the website.
 Refreshing the page will revert everything back to their original values. :/ :/ :/
 
 
-# The Dom Tree
 
-### The document itself is a document node, which is the root of all other nodes.
-
-
-The DOM consists of a tree structure of nested nodes, which is often referred to as the DOM tree. 
-You may be familiar with an ancestral family tree, which consists of parents, children, and siblings. The nodes in the DOM are also referred to as parents, children, and siblings, depending on their relation to other nodes.
-
-### To do:
-
-```html
-<!doctype html>
-<html>
-  <head>
-    <title>My home page</title>
-  </head>
-  <body>
-    <h1>My home page</h1>
-    <p>Hello, I am (your name) and this is my home page.</p>
-    <p>Also, I'm really cool!
-      <a href="http://coolperson.com"> see here</a></p>
-  </body>
-</html>
-```
 ## Events
 An event in JavaScript is an action the user has taken. 
 Examples:
@@ -94,7 +96,7 @@ Examples:
 
 
 # Modifying the DOM with Events
-Up until now, we've only seen how to modify the DOM in the console, which we see is temporary- every time the page is refreshed our changes are lost. Let's instead create a button that does this when clicked.
+Up until now, we've only seen how to modify the DOM in the console, which we see is temporary- every time the page is refreshed our changes are lost. Let's instead create a button on our web page that does this for us when clicked.
 
 Let's go back to our `index.html` file and create a `button` element with an id. 
 ```
