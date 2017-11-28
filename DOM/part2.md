@@ -7,7 +7,7 @@ Objectives:
 -  we'll create a JavaScript program to interactively modify the DOM
 
 
-let's use that basic CSS that we created a moment ago
+Let's use that basic HTML that we created a moment ago
 
 ##### The simplest way to access an element with JavaScript is by the id attribute. Let's add a nav id to our HTML.
 
