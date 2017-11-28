@@ -1,10 +1,5 @@
 # Part 2
 
-Objectives:
-
--  we will learn about the DOM tree
--  what nodes are, and how to identify the most common node types
--  we'll create a JavaScript program to interactively modify the DOM
 
 # The Dom Tree
 
@@ -58,11 +53,15 @@ We're going to use the `getElementById()` method to access the entire element. I
 
 we'll get back:
 
-`<a id="nav" href="index.html">Home</a>`
+``` html
+<a id="nav" href="index.html">Home</a>
+```
 
 We have retrieved the entire element using `getElementById()`. Now, instead of typing that object and method every time we want to access nav link, we can store it into a variable.
 
-`let navLink = document.getElementById('nav');`
+``` javascript
+let navLink = document.getElementById('nav');
+```
 
 Now, we can easily modify attributes and values. For example, we can change where the link goes by changing the href attribute:
 
@@ -70,11 +69,16 @@ Now, we can easily modify attributes and values. For example, we can change wher
 
 We can also change the text content by reassigning the textContent property:
 
-`navLink.textContent = 'Navigate to Wikipedia';`
+``` javascript
+navLink.textContent = 'Navigate to Wikipedia';
+``` 
 
-`navLink;
-Output
-<a id="nav" href="https://www.wikipedia.org/">Navigate to Wikipedia</a>`
+``` javascript
+navLink;
+``` 
+``` html
+<a id="nav" href="https://www.wikipedia.org/">Navigate to Wikipedia</a>
+```
 
 This is also reflected on the front-end of the website.
 
@@ -99,7 +103,7 @@ Examples:
 Up until now, we've only seen how to modify the DOM in the console, which we see is temporary- every time the page is refreshed our changes are lost. Let's instead create a button on our web page that does this for us when clicked.
 
 Let's go back to our `index.html` file and create a `button` element with an id. 
-```
+```html
 <button id ="changeBackground">Change Background Color</button>
 ```
 
@@ -107,7 +111,7 @@ We'll also need to create a `script.js` file.
 
 
 #### Next
-In our `script.js` file, we'll first find the button element and assign it to a variable.
+In our `script.js` file, we'll first find the `button` element and assign it to a variable.
 
 in our `scripts.js` create a button function. (help please!)
 
