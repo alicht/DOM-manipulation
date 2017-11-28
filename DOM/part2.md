@@ -22,7 +22,6 @@ let's use that basic CSS that we created a moment ago
 
   <body>
       <h1>Document Object Model</h1>
-      <a id="nav" href="index.html">Home</a>
   </body>
 
 </html>
