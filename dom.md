@@ -31,5 +31,5 @@ This model allows JavaScript to access the text content and elements of the webs
     <h1>Document Object Model</h1>
   </body>
 
-</html>```
+</html>
 
