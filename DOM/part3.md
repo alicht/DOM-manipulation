@@ -227,5 +227,9 @@ With `querySelector()`, comma-separated values function as an OR operator. For e
 Using the query selector methods is extremely powerful, as you can access any element or group of elements in the DOM the same way you would in a CSS file. For a complete list of selectors, review CSS Selectors on the Mozilla Developer Network.
 
 
-#  Conclusion
-In this tutorial, we went over 5 ways to access HTML elements in the DOM — by ID, by class, by HTML tag name, and by selector. The method you will use to get an element or group of elements will depend on browser support and how many elements you will be manipulating. You should now feel confident to access any HTML element in a document with JavaScript through the DOM.
+#  Recap
+we went over 5 ways to access HTML elements in the DOM — by ID, by class, by HTML tag name, and by selector. 
+
+The method you will use to get an element or group of elements will depend on how many elements you will be manipulating. 
+
+You should now feel confident to access any HTML element in a document with JavaScript through the DOM.
