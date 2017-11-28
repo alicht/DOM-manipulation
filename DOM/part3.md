@@ -1,9 +1,11 @@
 # Part 3
+Objectives:
+-  How to access elements in the DOM by ID, class, tag, and query selectors.
+
 ## How to access elements in the DOM
+ 
 
-In Understanding the DOM Tree and Nodes, we went over how the DOM is structured as a tree of objects called nodes, and that nodes can be text, comments, or elements. Usually when we access content in the DOM, it will be through an HTML element node.
-
-In order to be proficient at accessing elements in the DOM, it is necessary to have a working knowledge of CSS selectors, syntax and terminology as well as an understanding of HTML elements. In this tutorial, we will go over several ways to access elements in the DOM: by ID, class, tag, and query selectors.
+In order to be proficient at accessing elements in the DOM, it is necessary to know about CSS selectors and HTML elements. 
 
 ![screen shot 2017-11-28 at 8 32 31 am](https://user-images.githubusercontent.com/6153182/33322269-bd3e437e-d416-11e7-9bfb-2713a539af1f.png)
 
@@ -60,7 +62,7 @@ Let's render this in a browser
 
 In this HTML file, we have many elements that we will access with different `document` methods. 
 
-## 1 Accessing Elements by ID
+## 1) Accessing Elements by ID
 
 The easiest way to access a single element in the DOM is by its unique ID. We can grab an element by ID with the `getElementById()` method of the document object.
 
@@ -95,7 +97,7 @@ demoId.style.border = '1px solid purple';
 ### So... IDs are great, but...
 Accessing an element by ID is an effective way to get an element quickly in the DOM. However, it has drawbacks; an ID must always be unique to the page, and therefore you will only ever be able to access a single element at a time with the getElementById() method. If you wanted to add a function to many elements throughout the page, your code would quickly become repititious.
 
-# Accessing Elements by Class
+# 2) Accessing Elements by Class
 
 The class attribute is used to access one or more specific elements in the DOM. We can get all the elements with a given class name with the getElementsByClassName() method.
 
@@ -139,7 +141,7 @@ for (i = 0; i < demoClass.length; i++) {
 
 ![screen shot 2017-11-28 at 8 55 59 am](https://user-images.githubusercontent.com/6153182/33323289-fefa63b2-d419-11e7-9968-ed2700f223da.png)
 
-# Accessing Elements by Tag
+# 3) Accessing Elements by Tag
 A less specific way to access multiple elements on the page would be by its HTML tag name. We access an element by tag with the getElementsByTagName() method.
 
 ```document.getElementsByTagName();```
@@ -164,7 +166,7 @@ for (i = 0; i < demoTag.length; i++) {
 
 ![screen shot 2017-11-28 at 9 00 03 am](https://user-images.githubusercontent.com/6153182/33323470-9385251c-d41a-11e7-934c-17931c84235f.png)
 
-# Query Selectors
+# 4) Query Selectors
 If you have any experience with the jQuery API, you may be familiar with jQuery's method of accessing the DOM with CSS selectors.
 
 ``` javascript
