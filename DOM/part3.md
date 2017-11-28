@@ -9,9 +9,8 @@ In order to be proficient at accessing elements in the DOM, it is necessary to k
 
 ![screen shot 2017-11-28 at 8 32 31 am](https://user-images.githubusercontent.com/6153182/33322269-bd3e437e-d416-11e7-9bfb-2713a539af1f.png)
 
-It is important when studying the DOM to type the examples on your own computer to ensure that you are understanding and retaining the information you learn.
 
-Let's add this HTML code:
+Let's add this HTML code so we can learn about each one:
 
 ``` html
 <!DOCTYPE html>
