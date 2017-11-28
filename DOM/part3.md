@@ -198,7 +198,9 @@ The selector for an id attribute is the hash symbol (#). We can assign the eleme
 ``` javascript
 const demoQuery = document.querySelector('#demo-query');
 ```
-In the case of a selector with multiple elements, such as a `class` or a `tag`, `querySelector()` will return the first element that matches the query. We can use the `querySelectorAll()` method to collect all the elements that match a specific query.
+In the case of a selector with multiple elements, such as a `class` or a `tag`, `querySelector()` will return the first element that matches the query. 
+
+In that instance, we can use the `querySelectorAll()` method to collect all the elements that match a specific query.
 
 In our example file, we have two elements with the `demo-query-all` class applied to them.
 
