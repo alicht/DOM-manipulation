@@ -106,7 +106,7 @@ Accessing an element by ID is an effective way to get an element quickly in the 
 
 The class attribute is used to access one or more specific elements in the DOM. We can get all the elements with a given class name with the `getElementsByClassName()` method.
 
-```
+``` javascript
 document.getElementsByClassName();
 ```
 Now we want to access more than one element, and in our example we have two elements with a `demo` class.
