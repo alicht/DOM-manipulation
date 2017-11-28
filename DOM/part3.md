@@ -80,14 +80,14 @@ Logging demoId to the console will return our entire HTML element.
 
 ```
 console.log(demoId);
-Output
+
 <div id="demo">Access me by ID</div>
 ```
 
 We can be sure we're accessing the correct element by changing the border property to red.
 
 ```
-demoId.style.border = '1px solid purple';
+demoId.style.border = '1px solid red';
 ```
 
 ![screen shot 2017-11-28 at 8 43 42 am](https://user-images.githubusercontent.com/6153182/33322765-4d21dc84-d418-11e7-869f-d34b5e91f6b2.png)
