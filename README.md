@@ -73,13 +73,15 @@ recipe ingredients => HTML, finished dish => DOM
 
 3) The DOM allows you to set content.
 
-4) add effects/ animation
+4) add effects/ animationd turned into the DOM
 
 5) create event listeners
 
 The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.
 
-
+#####
+Q: is the HTML you write the DOM?
+A. not really... but the HTML you write is parsed by the browser and turned into the DOM.
 
 
 
