@@ -99,7 +99,7 @@ demoId.style.border = '1px solid red';
 
 
 ### So... IDs are great, but...
-Accessing an element by ID is an effective way to get an element quickly in the DOM. However, it has drawbacks; an ID must always be unique to the page, and therefore you will only ever be able to access a single element at a time with the getElementById() method. If you wanted to add a function to many elements throughout the page, your code would quickly become repititious.
+Accessing an element by ID is an effective way to get an element quickly in the DOM. However, it has drawbacks; an ID must always be unique to the page, and therefore you will only ever be able to access a single element at a time with the `getElementById()` method. If you wanted to add a function to many elements throughout the page, your code would quickly become repititious.
 
 # 2) Accessing Elements by Class
 
