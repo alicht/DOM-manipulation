@@ -2,4 +2,5 @@
 
 Welcome to our color switcher lab! 
 
-![screen shot 2017-11-28 at 11 08 59 pm](https://user-images.githubusercontent.com/6153182/33357638-4cde8546-d491-11e7-9434-c624b5519aba.png)
+![screen shot 2017-11-28 at 11 14 39 pm](https://user-images.githubusercontent.com/6153182/33357724-fdebac88-d491-11e7-81c3-4666e0734adf.png)
+
