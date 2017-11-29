@@ -19,6 +19,6 @@ Create a color switcher.
 -  2) clicking a colored circle should simultaneously change both the background color AND the color of the instruction text
 -  3) the instruction text and the colored circles should remain static- only the background and font color should change
 
-## BONUS feel free to add any additional styles
+#### Feel free to add any additional styles!
 
 ![Alt Text](https://media.giphy.com/media/11F0d3IVhQbreE/giphy.gif)
