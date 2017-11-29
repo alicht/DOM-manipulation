@@ -70,7 +70,7 @@ In our `script.js` file, we'll first find the `button` element and assign it to 
 
 in our `scripts.js` create a button function.
 
--  first let's create a button object `let button = document.getElementById('changeBackground');`
+`let button = document.getElementById('changeBackground');`
 
 
 Using the `addEventListener()` method, we'll tell the button to listen for a click, and perform a function once clicked.
