@@ -1,4 +1,4 @@
-Objectives:
+# Objectives:
 -  The Dom Tree
 -  How to access elements in the DOM using ID, class, tag, and query selectors.
 -  Styling using query selectors
