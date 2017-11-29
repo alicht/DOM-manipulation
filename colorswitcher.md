@@ -15,11 +15,10 @@ Create a color switcher.
 
 ## Specs
 
--  1 there should be a row of 4 colored circles 
--  2 clicking a colored circle should simultaneously change both the background color AND the color of the instruction text
--  3 the instruction text and the colored circles should remain static- only the background and font color should change
+-  1) there should be a row of 4 colored circles 
+-  2) clicking a colored circle should simultaneously change both the background color AND the color of the instruction text
+-  3) the instruction text and the colored circles should remain static- only the background and font color should change
 
 ## BONUS feel free to add any additional styles
 
 ![Alt Text](https://media.giphy.com/media/l4FGvTHYa4vTqu3L2/giphy.gif)
-
