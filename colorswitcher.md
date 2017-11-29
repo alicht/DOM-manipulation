@@ -23,5 +23,8 @@ Create a color switcher.
 
 ![Alt Text](https://media.giphy.com/media/11F0d3IVhQbreE/giphy.gif)
 
+### Helpful resource
 
-Helpful links https://www.w3schools.com/jsref/prop_style_background.asp
+[styling with query selectors](https://www.w3schools.com/jsref/prop_style_background.asp)
+
+
