@@ -21,4 +21,4 @@ Create a color switcher.
 
 ## BONUS feel free to add any additional styles
 
-![Alt Text](https://media.giphy.com/media/l4FGvTHYa4vTqu3L2/giphy.gif)
+![Alt Text](https://media.giphy.com/media/11F0d3IVhQbreE/giphy.gif)
