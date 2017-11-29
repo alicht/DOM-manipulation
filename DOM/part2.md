@@ -1,5 +1,8 @@
--  The Dom is structured as a tree of nodes and how to access it
--  How to access elements in the DOM by ID, class, tag, and query selectors.
+Objectives:
+-  The Dom Tree
+-  How to access elements in the DOM using ID, class, tag, and query selectors.
+-  Styling using query selectors
+
 
 
 # The Dom Tree
