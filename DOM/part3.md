@@ -4,9 +4,6 @@ Objectives:
 
 ## How to access elements in the DOM
  
-
-In order to be proficient at accessing elements in the DOM, it is necessary to know about CSS selectors and HTML elements. 
-
 ![screen shot 2017-11-28 at 8 32 31 am](https://user-images.githubusercontent.com/6153182/33322269-bd3e437e-d416-11e7-9bfb-2713a539af1f.png)
 
 
