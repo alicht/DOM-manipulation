@@ -37,7 +37,6 @@ Examples:
 -  key up/ key down
 
 
-
 # Modifying the DOM with Events
  Let's create a button on our web page that fires an event when clicked.
  
