@@ -1,4 +1,4 @@
-![screen shot 2017-11-28 at 11 08 59 pm](https://user-images.githubusercontent.com/6153182/33358052-46b41692-d494-11e7-8bf8-e0734fda7383.png)
+![screen shot 2017-11-28 at 11 41 50 pm](https://user-images.githubusercontent.com/6153182/33358289-c715c8a2-d495-11e7-9d8b-6f9efe963bd5.png)
 
 
 Welcome to our color switcher lab! 
