@@ -37,7 +37,7 @@ Examples:
 -  key up/ key down
 
 
-# Modifying the DOM with Events
+# Using Events to modify the DOM
  Let's create a button on our web page that fires an event when clicked.
  
  Let's make a directory with an `index.html` & `script.js` files.
