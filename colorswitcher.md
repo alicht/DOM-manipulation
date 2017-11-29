@@ -22,3 +22,6 @@ Create a color switcher.
 #### Feel free to add any additional styles!
 
 ![Alt Text](https://media.giphy.com/media/11F0d3IVhQbreE/giphy.gif)
+
+
+Helpful links https://www.w3schools.com/jsref/prop_style_background.asp
