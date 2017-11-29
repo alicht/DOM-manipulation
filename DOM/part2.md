@@ -6,7 +6,6 @@
 
 ### The document itself is a document node, which is the root of all other nodes.
 
-
 The DOM consists of a tree structure of nested nodes, which is often referred to as the DOM tree. 
 Similiar to a family tree, the nodes in the DOM are also referred to as parents, children, and siblings depending on their relation to other nodes.
 
