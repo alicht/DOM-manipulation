@@ -86,9 +86,7 @@ Finally, inside of the function, we will write the same code from the previous t
 
 ``` javascript
 let button = document.getElementById('changeBackground');
-
 button.addEventListener('click', () => {
-
   document.body.style.backgroundColor = 'indigo';
 });
 ```
