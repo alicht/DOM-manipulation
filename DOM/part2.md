@@ -92,12 +92,12 @@ button.addEventListener('click', () => {
 ```
 
 
-## How to access elements in the DOM
+## Accessing elements in the DOM
  
 ![screen shot 2017-11-28 at 8 32 31 am](https://user-images.githubusercontent.com/6153182/33322269-bd3e437e-d416-11e7-9bfb-2713a539af1f.png)
 
 
-Let's add this HTML code so we can learn about each one:
+Let's add this HTML code so we can learn about each element:
 
 ``` html
 <!DOCTYPE html>
