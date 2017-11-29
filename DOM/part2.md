@@ -40,24 +40,41 @@ Examples:
 
 # Modifying the DOM with Events
  Let's create a button on our web page that fires an event when clicked.
+ 
+ Let's make a directory with an `index.html` & `script.js` files.
+ 
+``` html
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Learning the DOM</title>
+  </head>
+
+  <body>
+      <h1>Document Object Model</h1>
+
+      <script src= "app.js"></script>
+  </body>
+
+</html>
+```
 
 Let's go to our `index.html` file and create a `button` element with an id. 
 ```html
 <button id ="changeBackground">Change Background Color</button>
 ```
 
-We'll also need to create a `script.js` file.
-
 
 #### Next
 In our `script.js` file, we'll first find the `button` element and assign it to a variable.
 
-in our `scripts.js` create a button function. (help please!)
+in our `scripts.js` create a button function.
+
+-  first let's create a button object `let button = document.getElementById('changeBackground');`
 
 
-#### Next
-
-Using the `addEventListener()` method, we will tell the button to listen for a click, and perform a function once clicked.
+Using the `addEventListener()` method, we'll tell the button to listen for a click, and perform a function once clicked.
 
 ``` javascript
 button.addEventListener('click', () => {
@@ -69,7 +86,9 @@ Finally, inside of the function, we will write the same code from the previous t
 
 ``` javascript
 let button = document.getElementById('changeBackground');
+
 button.addEventListener('click', () => {
+
   document.body.style.backgroundColor = 'indigo';
 });
 ```
